@@ -1107,14 +1107,21 @@ padding-top: .5em;
 {
     font-size:2em;
 }
-
-@media screen and (max-width:500px) {
-.header
+.info
 {
-    display: none;    
+    display: none;
 }
 
+@media screen and (max-width:480px) and (min-width:320px){
+.info
+{
+display: block;
+}
+}
 
-
-
+@media screen and (max-width:768px) and (min-width:481px){
+    .info
+    {
+    display: block;
+    }
 }
